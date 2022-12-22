@@ -24,8 +24,8 @@
                             <td scope = "row" class="col-id"><?= $contact["id"] ?></td>
                             <td scope = "row"><?= $contact["name"] ?></td>
                             <td scope = "row"><?= $contact["phone"] ?></td>
-                            <td>
-                                <a href="#"> <i class="fas fa-eye check-icon"></i></a>
+                            <td class="actions">
+                                <a href="<?= $BASE_URL ?>show.php?id=<?= $contact["id"] ?>"> <i class="fas fa-eye check-icon"></i></a>
                                 <a href="#"><i class="far fa-edit edit-icon"></i></a>
                                 <button id="delete-btn" type="submit"><i class="fas fa-times delete-icon"
                                 ></i></button>
